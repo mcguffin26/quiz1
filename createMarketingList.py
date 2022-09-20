@@ -63,7 +63,7 @@ print(custData)
 # iternate through the dictionary and write to the output file
 outfile.write('Name,Email,Phone\n')
 for key, value in custData.items():
-    outfile.write(str(key) + str(custData[email] + custData[phoneNum] + '\n'))
+    outfile.write(str(key) + str(email) + ',' + str(phoneNum) + ',' + '\n')
 
 
 
